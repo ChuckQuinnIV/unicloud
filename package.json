@@ -1,8 +1,10 @@
 {
   "dependencies": {
     "dropbox": "^2.5.12",
-      "express": "^4.16.2",
-    "frow": "^2.0.1"
+    "express": "^4.16.2",
+    "frow": "^2.0.1",
+    "google-auth-library": "^0.11.0",
+    "googleapis": "^22.2.0"
   },
   "license": "MIT",
   "devDependencies": {
