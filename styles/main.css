@@ -1,0 +1,93 @@
+.hidden{
+    display: none;
+}
+
+p{
+    color: white;
+}
+
+body{
+    font-family: Roboto;
+    /*background-color: #F0F0F0;*/
+
+
+    background-color: #7474BF;
+    background-image: linear-gradient(to bottom, #7474BF, #348AC7 100%);
+    background-attachment: fixed;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    padding: 0;
+    margin: 0;
+}
+
+.section-title{
+    font-style: italic;
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#header{
+    height: 50px;
+    width:  100%;
+    background-color: steelblue;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#header a{
+    color: white;
+    margin-right: 10px;
+}
+
+.header-logo{
+    font-size: 22px;
+    font-weight: 900;
+}
+
+canvas{
+    background: #696969;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+#under-header{
+    margin-top: 70px;
+}
+
+.page{
+    padding: 20px 15px 40px 15px;
+    margin-bottom: 26.5px;
+    background-color: #FFF;
+    width: 100%;
+    height: 100%;
+
+}
+
+.background-image{
+    background-image: url('../img/music-listen.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 45.64%;
+
+}
+
+.page-title{
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    /*steelblue*/
+    padding-bottom: 30px;
+}
