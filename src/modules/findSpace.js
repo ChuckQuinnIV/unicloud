@@ -1,5 +1,5 @@
 var Dropbox = require('dropbox');
-var dbx = new Dropbox({accessToken: 'TMUBdqBFjEAAAAAAAAAAEd8_9HuoYxBSnA0rzIt5AJCsnpBMsnVioa_boBWk9EEk'});
+var dbx = new Dropbox({accessToken: ''});
 
 dbx.usersGetSpaceUsage()
   .then(function(response) {
