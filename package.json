@@ -2,7 +2,9 @@
   "dependencies": {
     "dropbox": "^2.5.12",
     "express": "^4.16.2",
-    "frow": "^2.0.1"
+    "frow": "^2.0.1",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1"
   },
   "license": "MIT",
   "devDependencies": {
