@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<title>Singlecloud</title>
+	<link href="https://cdn.rawgit.com/Beg-in/frow/1.4.6/css/frow.min.css" rel="stylesheet">
+	<link href="./styles/main.css" rel="stylesheet">
+	<link href="./styles/home.css" rel="stylesheet">
+	<link href="./styles/weather.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,700" rel="stylesheet">
+	<script src="./scripts/home.js">
+	</script>
+	<script src="./scripts/snow-effect.js">
+	</script>
+</head>
+<body>
+	<div class="card-shadow" id="header">
+		<div class="frow-container height-100">
+			<div class="frow justify-between centered">
+				<a class="header-logo" href="./index.html">Singlecloud</a>
+				<div>
+					<a href="#">About Us</a> <a href="#">Logout</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<canvas id="canvas" style="display: block;"></canvas>
+	<div id="under-header">
+		<div class="frow-container">
+			<div class="frow">
+				<div class="frow gutters">
+					<div class="col-md-1-2">
+						<div class="page card-shadow">
+							<div class="frow column-center">
+								<label>Upload Files</label> <input id="file" name="file" placeholder="rekt.file" type="text"> <button onclick="grabZip()">Upload File</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-1-2">
+						<div class="page card-shadow">
+							<div class="frow gutters">
+								<div class="col-md-1-2">
+									<div class="page card-shadow">
+										<div class="frow column-center">
+											<label>File</label>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-1-2">
+									<div class="page card-shadow">
+										<div class="frow column-start">
+											<label>File</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./scripts/snow-effect.js">
+	</script>
+</body>
+</html>
