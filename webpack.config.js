@@ -35,7 +35,7 @@ module.exports = {
       filename: 'html/index.html',
       template: `${__dirname}/src/pages/index.html`,
       inject: false,
-    })
+    }),
   ],
   stats: {
     colors: true
